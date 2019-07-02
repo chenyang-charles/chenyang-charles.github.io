@@ -81,7 +81,7 @@
     back2top: true,
     back2top_sidebar: false,
     fancybox: false,
-    fastclick: true,
+    fastclick: false,
     lazyload: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -525,10 +525,7 @@
           
 
   
-    <div class="comments" id="comments">
-      <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
-      </div>
+    <div class="comments" id="gitalk-container">
     </div>
 
   
@@ -756,8 +753,6 @@
 
 
 
-  
-
 
 
 
@@ -786,9 +781,6 @@
 
   
   <script src="/lib/jquery/index.js?v=3.4.1"></script>
-
-  
-  <script src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
   <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
@@ -871,8 +863,8 @@
 
 <script>
   var gitalk = new Gitalk({
-    clientID: 'bcdb4979761a2a188b1a',
-    clientSecret: '8c3f6e2e1c7ccfd5944aa2701a398ccb1eeddce0',
+    clientID: '2caf47dbb536735c8278',
+    clientSecret: 'bc75147774238115ff12f4d556e1f23390ec63cb',
     repo: 'chenyang-charles.github.io',
     owner: 'chenyang-charles',
     admin: ['chenyang-charles'],
