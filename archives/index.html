@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang>
+<html class="theme-next mist use-motion" lang="en,zh-CN,default">
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,7 +33,12 @@
 
 
 
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
 
+
+
+  <meta name="google-site-verification" content="kqtEnR_qdfHognpQnFoxTORXDBae5Kxqv9e4hYMpl9c">
 
 
 
@@ -79,9 +84,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Mist',
     version: '7.2.0',
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":true,"dimmer":false},
     back2top: true,
     back2top_sidebar: false,
     fancybox: true,
@@ -105,13 +110,17 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Yang&#39;s Home">
+  <meta name="description" content="Aut Caesar, Aut Nihil">
+<meta name="keywords" content="ChinSama,chinsama">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ChinSama">
 <meta property="og:url" content="http://chenyang-charles.github.io/archives/index.html">
-<meta property="og:site_name" content="Yang&#39;s Home">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="ChinSama">
+<meta property="og:description" content="Aut Caesar, Aut Nihil">
+<meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Yang&#39;s Home">
+<meta name="twitter:title" content="ChinSama">
+<meta name="twitter:description" content="Aut Caesar, Aut Nihil">
 
 
 
@@ -129,7 +138,7 @@
   };
 </script>
 
-  <title>Archive | Yang's Home</title>
+  <title>Archive | ChinSama</title>
   
 
 
@@ -181,7 +190,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
   
   
@@ -199,10 +208,14 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Yang's Home</span>
+        <span class="site-title">ChinSama</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
+      
+        <h1 class="site-subtitle" itemprop="description">Yang's Home</h1>
+      
     
     
   </div>
@@ -463,8 +476,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/images/me.png" alt="Yang Chen">
+            
               <p class="site-author-name" itemprop="name">Yang Chen</p>
-              <div class="site-description motion-element" itemprop="description"></div>
+              <div class="site-description motion-element" itemprop="description">Aut Caesar, Aut Nihil</div>
           </div>
 
           
@@ -499,7 +514,7 @@
                   
                     
                   
-                  <a href="https://github.com/chenyang-charles" title="GitHub &rarr; https://github.com/chenyang-charles" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                  <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2NoZW55YW5nLWNoYXJsZXM=" title="GitHub &rarr; https://github.com/chenyang-charles"><i class="fa fa-fw fa-github"></i></span>
                 </span>
               
                 <span class="links-of-author-item">
@@ -508,7 +523,7 @@
                   
                     
                   
-                  <a href="mailto:chenyang.charles@gmail.com" title="E-Mail &rarr; mailto:chenyang.charles@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+                  <span class="exturl" data-url="bWFpbHRvOmNoZW55YW5nLmNoYXJsZXNAZ21haWwuY29t" title="E-Mail &rarr; mailto:chenyang.charles@gmail.com"><i class="fa fa-fw fa-envelope"></i></span>
                 </span>
               
                 <span class="links-of-author-item">
@@ -517,7 +532,7 @@
                   
                     
                   
-                  <a href="https://www.linkedin.com/in/chenyang95" title="Linkedin &rarr; https://www.linkedin.com/in/chenyang95" rel="noopener" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+                  <span class="exturl" data-url="aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL2NoZW55YW5nOTU=" title="Linkedin &rarr; https://www.linkedin.com/in/chenyang95"><i class="fa fa-fw fa-linkedin"></i></span>
                 </span>
               
             </div>
@@ -707,6 +722,7 @@
 
 
 
+
   
 
   
@@ -721,6 +737,8 @@
 
 
   
+  <script src="/js/exturl.js?v=7.2.0"></script>
+
 
   
   
@@ -1145,16 +1163,6 @@ if ($('body').find('pre.mermaid').length) {
 
 
   
-  <script>
-    (function(){
-      var bp = document.createElement('script');
-      var curProtocol = window.location.protocol.split(':')[0];
-      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-    })();
-  </script>
-
 
   
 
