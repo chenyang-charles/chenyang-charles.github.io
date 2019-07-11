@@ -24,6 +24,8 @@ var precacheUrls = [];
 
   precacheUrls.push('/');
 
+  precacheUrls.push('/2019/07/10/湾区美食日记-1-香锅大王/');
+
   precacheUrls.push('/2019/07/01/hello-world/');
 
 toolbox.precache(precacheUrls);
