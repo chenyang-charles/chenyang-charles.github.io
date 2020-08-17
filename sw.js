@@ -24,6 +24,8 @@ var precacheUrls = [];
 
   precacheUrls.push('/');
 
+  precacheUrls.push('/2020/08/16/YangMao2/');
+
   precacheUrls.push('/2019/11/08/YangMao/');
 
   precacheUrls.push('/2019/07/10/湾区美食日记-1-香锅大王/');
