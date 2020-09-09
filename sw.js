@@ -31,7 +31,7 @@ var precacheUrls = [
 
   '/2019/11/08/YangMao/',
 
-  '/2019/07/10/湾区美食日记-1-香锅大王/',
+  '/2019/07/10/美食日记-1-香锅大王/',
 
 ];
 toolbox.precache(precacheUrls);
