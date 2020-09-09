@@ -4,50 +4,89 @@
   <url>
     <loc>http://chenyang-charles.github.io/2020/08/16/YangMao2/</loc>
     
-    <lastmod>2020-08-17T07:38:10.403Z</lastmod>
+    <lastmod>2020-08-17</lastmod>
     
   </url>
   
   <url>
     <loc>http://chenyang-charles.github.io/2019/11/08/YangMao/</loc>
     
-    <lastmod>2020-08-16T23:10:11.789Z</lastmod>
+    <lastmod>2020-08-16</lastmod>
     
   </url>
   
   <url>
     <loc>http://chenyang-charles.github.io/2019/07/10/%E6%B9%BE%E5%8C%BA%E7%BE%8E%E9%A3%9F%E6%97%A5%E8%AE%B0-1-%E9%A6%99%E9%94%85%E5%A4%A7%E7%8E%8B/</loc>
     
-    <lastmod>2019-11-09T21:48:07.589Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://chenyang-charles.github.io/2019/07/01/hello-world/</loc>
-    
-    <lastmod>2019-07-05T02:11:34.741Z</lastmod>
+    <lastmod>2019-11-09</lastmod>
     
   </url>
   
   <url>
     <loc>http://chenyang-charles.github.io/about/index.html</loc>
     
-    <lastmod>2019-07-04T08:18:42.820Z</lastmod>
+    <lastmod>2019-07-04</lastmod>
     
   </url>
   
   <url>
     <loc>http://chenyang-charles.github.io/tags/index.html</loc>
     
-    <lastmod>2019-07-02T09:04:27.728Z</lastmod>
+    <lastmod>2019-07-02</lastmod>
     
   </url>
   
   <url>
     <loc>http://chenyang-charles.github.io/sitemap/index.html</loc>
     
-    <lastmod>2019-07-02T08:58:36.555Z</lastmod>
+    <lastmod>2019-07-02</lastmod>
     
   </url>
+  
+
+  <url>
+    <loc>http://chenyang-charles.github.io/</loc>
+    <lastmod>2020-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://chenyang-charles.github.io/tags/%E7%BE%8E%E9%A3%9F%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://chenyang-charles.github.io/tags/%E9%A6%99%E9%94%85%E5%A4%A7%E7%8E%8B/</loc>
+    <lastmod>2020-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://chenyang-charles.github.io/tags/Sizzling-Pot-King/</loc>
+    <lastmod>2020-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://chenyang-charles.github.io/tags/%E7%BE%8A%E6%AF%9B%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://chenyang-charles.github.io/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/</loc>
+    <lastmod>2020-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
   
 </urlset>
